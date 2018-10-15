@@ -8,28 +8,28 @@ namespace Estadistica
 {
     class Ests
     {
-        public int a;
-        public int b;
+        public float a;
+        public float b;
 
-        public Ests(int a, int b)
+        public Ests(float a, float b)
         {
             this.a = a;
             this.b = b;
         }
 
-        public int suma()
+        public float suma()
         {
             return a + b;
         }
-        public int resta()
+        public float resta()
         {
             return a - b;
         }
-        public int multiplicacion()
+        public float multiplicacion()
         {
             return a * b;
         }
-        public int division()
+        public float division()
         {
             return a / b;
         }
