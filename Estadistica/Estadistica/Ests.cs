@@ -8,8 +8,13 @@ namespace Estadistica
 {
     class Ests
     {
-        public float a;
-        public float b;
+        private float a;
+        private float b;
+        
+        
+
+        public float A { get => a; set => a = value; }
+        public float B { get => b; set => b = value; }
 
         public Ests(float a, float b)
         {

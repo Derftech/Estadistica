@@ -16,13 +16,14 @@ namespace Estadistica
             try
             {
                 Console.WriteLine("Ingrese a: ");
-                a.a = float.Parse(Console.ReadLine());
+                a.A = float.Parse(Console.ReadLine());
                 Console.WriteLine("Ingrese b: ");
-                a.b = float.Parse(Console.ReadLine());
+                a.B = float.Parse(Console.ReadLine());
                 Console.WriteLine("Suma: " + a.suma());
                 Console.WriteLine("Resta: " + a.resta());
                 Console.WriteLine("Multiplicacíón: " + a.multiplicacion());
                 Console.WriteLine("División: " + a.division());
+                
             }
 
             catch
