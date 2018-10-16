@@ -22,8 +22,7 @@ namespace Estadistica
                 Console.WriteLine("Suma: " + a.suma());
                 Console.WriteLine("Resta: " + a.resta());
                 Console.WriteLine("Multiplicacíón: " + a.multiplicacion());
-                Console.WriteLine("División: " + a.division());
-                
+                Console.WriteLine("División: " + a.division());                
             }
 
             catch
